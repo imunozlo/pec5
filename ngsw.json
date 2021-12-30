@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1640892596076,
+  "index": "/pec5/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pec5/favicon.ico",
+        "/pec5/index.html",
+        "/pec5/main.06d6598e85add549.js",
+        "/pec5/manifest.webmanifest",
+        "/pec5/polyfills.104e0bdc4d2dd0e5.js",
+        "/pec5/runtime.3f4b8b0736bb2bf8.js",
+        "/pec5/styles.68b2a3d9e76ca2bd.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.2\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pec5/assets/css/animate.css",
+        "/pec5/assets/icons/icon-128x128.png",
+        "/pec5/assets/icons/icon-144x144.png",
+        "/pec5/assets/icons/icon-152x152.png",
+        "/pec5/assets/icons/icon-192x192.png",
+        "/pec5/assets/icons/icon-384x384.png",
+        "/pec5/assets/icons/icon-512x512.png",
+        "/pec5/assets/icons/icon-72x72.png",
+        "/pec5/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "images-api",
+      "patterns": [
+        "https:\\/\\/picsum\\.photos\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/pec5/assets/css/animate.css": "63b25187ac83d97992af72bd741eeedebec5c6b5",
+    "/pec5/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/pec5/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/pec5/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/pec5/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/pec5/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/pec5/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/pec5/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/pec5/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/pec5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/pec5/index.html": "bb66115acf51800e560040748ddd2a1f61f02844",
+    "/pec5/main.06d6598e85add549.js": "5d264f5fed10183700b31d015a49144424b550c8",
+    "/pec5/manifest.webmanifest": "c36d4bdae200637031ca8a614b0138006854e6e4",
+    "/pec5/polyfills.104e0bdc4d2dd0e5.js": "27c79e56125ad10613370fb5b8181289be8c4e3f",
+    "/pec5/runtime.3f4b8b0736bb2bf8.js": "19e4b363cf0ce37967eaf808287669d0e7c78b84",
+    "/pec5/styles.68b2a3d9e76ca2bd.css": "ff983c7c16e5646f1feef0f88eee3f6e6e38b523"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
